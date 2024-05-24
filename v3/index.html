@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Creador de haikus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+       <h1>AUTOHAIJIN</h1>
+    </div>
+    <div class="subheader">
+        <p>Un haiku es un poema japonés de tres versos que tiene 5, 7 y 5 sílabas respectivamente. El kigo es una palabra o frase que indica la estación del año en el haiku.</p>
+    </div>
+    <div class="buttons">
+        <button id="primavera" onclick="generateHaiku('primavera')">Primavera</button>
+        <button id="verano" onclick="generateHaiku('verano')">Verano</button>
+        <button id="otoño" onclick="generateHaiku('otoño')">Otoño</button>
+        <button id="invierno" onclick="generateHaiku('invierno')">Invierno</button>
+    </div>
+    <div class="haiku">
+        <p id="line1"></p>
+        <p id="line2"></p>
+        <p id="line3"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
